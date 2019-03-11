@@ -3,12 +3,12 @@
 #include <time.h>
 
 main() {
-
-	setlocale(LC_ALL, "Turkish");
 	int num, i,a;
-    srand(time(NULL));
-    num = rand();
-    num = num % 100;
+    	srand(time(NULL));
+	
+    	num = rand();
+    	num = num % 100;
+	
 	printf("In order to find the number, please enter your guess.\n");
 	scanf("%d",&a);
 	do{
